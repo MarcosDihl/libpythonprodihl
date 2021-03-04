@@ -27,8 +27,8 @@ standard_exclude_directories = [
 def find_package_data(
         where=".",
         package="",
-        exclude=None,
-        exclude_directories=None,
+        exclude="",
+        exclude_directories="",
         only_in_packages=True,
         show_ignored=False):
     """
